@@ -8,10 +8,23 @@
   https://www.kaggle.com/datasets/sinafadakhah/a-messy-house-price-dataset
 
 # Methods
-  List with methods, ex:
-  - Filtering
-  - Grouping
-  - Visualization
+  - Data Cleaning & Preprocessing
+    - Filtering: Dropping duplicate rows and handling missing values by removing rows with null coordinates during geospatial analysis.
+    - Imputation: Filling missing numerical values (e.g., in Area, Price) with the mean to maintain data integrity.
+    - Type Casting: Converting columns with string-based numbers into the correct numeric data types.
+  - Exploratory Data Analysis (EDA)
+    - Summary Statistics: Calculating descriptive statistics (.describe()) to get a quick overview of numerical features.
+    - Visualization: Creating histograms to show data distribution, scatter plots to visualize relationships between variables, and bar charts to compare group means.
+  - Predictive Modeling & Evaluation
+    - Data Splitting: Separating the dataset into training and testing sets to evaluate model performance on unseen data.
+    - Model Training: Training a Linear Regression model for a baseline and a more advanced Random Forest Regressor to improve predictive accuracy.
+    - Model Evaluation: Using metrics like R-squared (R2), Mean Absolute Error (MAE), and Mean Squared Error (MSE) to assess model performance.
+    - Feature Importance: Analyzing feature weights from the Random Forest model to determine which variables contribute most to price prediction.
+  - Deeper Analysis
+    - Geocoding: Converting street addresses into geographical coordinates (latitude and longitude) using geopy.
+    - Geospatial Visualization: Creating an interactive map with folium to plot properties and visualize price distribution by location.
+    - Clustering: Using the K-Means algorithm to segment the real estate market and identify distinct groups of properties.
+    - Data Scaling: Standardizing features with StandardScaler to ensure that the clustering algorithm treats all variables equally.
 
 # Technologies 
   List with used technologies, ex:
