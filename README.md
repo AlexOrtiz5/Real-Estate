@@ -27,10 +27,11 @@
     - Data Scaling: Standardizing features with StandardScaler to ensure that the clustering algorithm treats all variables equally.
 
 # Technologies 
-  List with used technologies, ex:
-  - Python
-  - Pandas
-  - MySQL
+  List with used technologies:
+  - Python: The core programming language used for all data manipulation, analysis, and modeling.
+  - Pandas: A powerful library for data handling, cleaning, and preprocessing.
+  - Scikit-learn: A machine learning library used for building and evaluating predictive models (Linear Regression, Random Forest) and for data scaling and splitting.
+  - Matplotlib: A plotting library used to create static visualizations like histograms and scatter plots for exploratory data analysis.
 
 # Project Description
   Paragraph with a description of the dataset, sources, characteristics ,etc.
