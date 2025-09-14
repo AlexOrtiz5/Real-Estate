@@ -34,7 +34,7 @@
   - Matplotlib: A plotting library used to create static visualizations like histograms and scatter plots for exploratory data analysis.
 
 # Project Description
-  Paragraph with a description of the dataset, sources, characteristics ,etc.
+  The dataset used in this project is the "A Messy House Price Dataset" from Kaggle. As its name suggests, the dataset is intentionally unstructured and contains several challenges common in real-world data, including missing values, inconsistent data types, and outliers. The dataset includes 3,480 rows and 8 key columns that describe various aspects of properties: Area, Room, Parking, Warehouse, Elevator, Address, Price, and Price(USD). The core of the project involves a comprehensive data science workflow, from cleaning and exploration to building predictive models. The project's goal is to predict property prices and derive meaningful insights into the factors that influence real estate values.
 
 # Steps
   Add here any insights you had during the project
